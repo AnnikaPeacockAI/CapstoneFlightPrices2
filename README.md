@@ -57,7 +57,7 @@ Max Depth: 5
 Max Bins: 32
 Num Trees: 20
 Feature Subset Strategy: auto
-The Random Forest model provided a significant improvement over the baseline Linear Regression model.
+The Random Forest model provided a significant improvement over the baseline Linear Regression model. This is the model we ended up choosing.
 
 Gradient Boosted Trees (GBT) Regressor
 RMSE on Test Data: 2467.86
@@ -67,12 +67,32 @@ Max Depth: 5
 Max Bins: 32
 Max Iterations: 20
 Step Size: 0.1
-The GBT Regressor yielded the best performance among the three models, making it our preferred choice for predicting flight prices.
+The GBT Regressor yielded (marginally) the best performance among the three models, but took significantly longer to optimize, leading to its elimination from this phase of the project.
 
 ## Advanced Analytics and Utility Scores
 Beyond basic price predictions, this project also incorporates utility scores and user-defined preferences for flight duration and cost. This allows for personalized recommendations that balance between price and flight duration, catering to different traveler profiles. This aspect of the project utilizes user inputs to weigh various factors more significantly according to individual preferences. This feature will be expanded upon in the next phase of the project, aiming to deliver more tailored and practical flight recommendations.
 
+## Conclusions from Data:
 
+The analysis and model development conducted in this study provide significant insights into flight pricing and utility values from the customer's perspective. The implemented Random Forest Regressor model achieved an acceptable root mean square error (RMSE) of approximately 25 USD (less than 2100 INR), indicating a strong ability to predict flight prices with a reasonable degree of accuracy.
+
+By integrating user input for departure and destination cities along with flight duration into the predictive model, the toolkit offers a practical and user-friendly interface for potential flight buyers to estimate the costs of their trips. Furthermore, the visual analyses generated, which illustrate the average utility scores based on days left before departure and comparisons across different airlines and airports, serve as valuable resources for customers to make informed decisions. These insights allow for a more strategic approach to booking flights, potentially leading to cost savings and improved satisfaction.
+
+## Next Steps:
+
+Model Improvement and Validation: Further refinement of the predictive model could be pursued. This could involve tuning hyperparameters, exploring alternative modeling approaches, or incorporating additional features such as seasonality, special events, and airline-specific promotions.
+
+User Interface Development: Enhancing the toolkit's user interface could make the application even more accessible to end-users. This could include developing a web or mobile application that allows users to input their travel details and receive price predictions and utility assessments instantly.
+
+Expand Data Sources: Incorporating more diverse datasets, such as weather conditions, economic indicators, or historical flight occupancy rates, could enhance the model's accuracy and relevance.
+
+Real-time Data Integration: Implementing real-time data fetching for flight prices and availability could provide users with up-to-date information, increasing the toolkit's utility and accuracy.
+
+Personalization: Customizing the utility score based on individual user preferences (e.g., valuing shorter flights more than lower prices) could offer more personalized and relevant results to users.
+
+Market Analysis Features: Adding functionality to analyze broader market trends, such as price fluctuations over time or the impact of external factors on flight prices, could offer additional value to users planning their travels.
+
+Feedback Mechanism: Implementing a feedback system within the toolkit to gather user experiences and suggestions for improvements could provide valuable insights for future enhancements.
 
 ## Getting Started
 
