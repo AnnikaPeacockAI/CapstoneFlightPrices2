@@ -6,7 +6,7 @@ Second and final part of AI/ML Professional Certificate Capstone, doing ML opera
 
 ## Project Overview
 
-This project aims to leverage the powerful analytics and machine learning capabilities of Databricks to predict flight prices based on historical data. Utilizing Apache Spark for large-scale data processing and PySpark for machine learning, the project provides insights into factors affecting flight prices and predicts future trends. The code repository can be found here: https://github.com/AnnikaPeacockAI/CapstoneFlightPrices1/blob/main/FlightPrices_Databricks_MachineLearning.ipynb
+This project aims to leverage the powerful analytics and machine learning capabilities of Databricks to predict flight prices based on historical data. Utilizing Apache Spark for large-scale data processing and PySpark for machine learning, the project provides insights into factors affecting flight prices and predicts future trends. The code repository for this second phase can be found here: https://github.com/AnnikaPeacockAI/CapstoneFlightPrices2/blob/main/FlightPrices_Databricks_MachineLearning%20(Second%20Phase).ipynb
 
 ## Objective
 The primary goal is to develop a predictive model that can accurately forecast the prices of flights based on various input variables such as departure date, airline, flight duration, number of stops, and other relevant factors. This model can help consumers and businesses make informed decisions by understanding price dynamics in the aviation industry.
